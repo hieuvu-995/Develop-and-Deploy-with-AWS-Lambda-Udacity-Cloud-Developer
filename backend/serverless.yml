@@ -39,11 +39,11 @@ provider:
 
   iam:
     role:
-      statements:
-        - Effect: Allow
-          Action:
-            - xray:PutTelemetryRecords
-          Resource: "*"
+      statements: []
+      #   - Effect: Allow
+      #     Action:
+      #       - xray:PutTelemetryRecords
+      #     Resource: "*"
 
 custom:
   documentation:
